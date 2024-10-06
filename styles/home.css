@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", "Playfair Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  padding: 0px 30px;
+  background-color: black;
+}
+.navbar svg {
+  margin-top: 3px;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 85px 200px 40px 200px;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.links a:nth-child(2) {
+  position: relative;
+  bottom: 50px;
+}
+
+.links a:nth-child(2) svg {
+  transform: rotate(-90deg);
+}
+
+.links a:last-child svg {
+  transform: rotate(180deg);
+  margin-left: 10px;
+}
+
+.links a:first-child svg {
+  margin-right: 10px;
+}
+
+.links a p {
+  margin: 0px;
+  color: black;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  max-width: min-content;
+}
+.links a p span {
+  font-size: 24px;
+  font-weight: bold;
+  align-self: center;
+}
+h5 {
+  font-size: 18px;
+  font-weight: normal;
+}
+h5 span {
+  font-weight: bold;
+}
+
+img {
+  position: absolute;
+  height: 95%;
+  top: 30px;
+  right: 0;
+}
+
+.slider_home {
+  position: absolute;
+  height: 75%;
+  top: 70px;
+  right: 0px;
+}
+
+.flecha {
+  position: absolute;
+  top: 10.5rem;
+  right: 7.8125rem;
+}
+
+.flecha-cerrar {
+  position: absolute;
+  top: 8.7rem;
+  left: 27rem;
+}
+
+.plus {
+  position: absolute;
+  top: 17rem;
+  right: 27rem;
+}
+
+.contacto-contenedor {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 5rem;
+  right: 4rem;
+  max-width: 200px;
+}
+
+.contacto-contenedor h1 {
+  color: white;
+  font-size: 50px;
+}
+.contacto-contenedor h1 span{
+  color: #be1622;
+}
+
+.contacto-contenedor p{
+  font-size: 18px;
+  color: white;
+}
+
+.contacto-contenedor p span{
+  display: block;
+  font-weight: bold;
+}
+
+.contacto-contenedor p span span{
+  display: inline;
+  color: #be1622;
+}
+
+.contacto{
+  align-self: center;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #be1622;
+  color: white;
+  border-radius: 20px;
+  width: 150px;
+}

@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", "Playfair Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  position: relative;
+  height: 100%;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  padding: 0px 30px;
+  background-color: black;
+}
+.navbar svg {
+  margin-top: 3px;
+}
+.navbar svg:last-child {
+  margin-top: 0px;
+}
+
+.titulo {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo h2 {
+  margin: 0px;
+  color: black;
+  display: flex;
+  font-size: 20px;
+  font-weight: normal;
+  flex-direction: column;
+  max-width: min-content;
+}
+
+.titulo h2 span {
+  font-size: 24px;
+  font-weight: bold;
+  align-self: center;
+}
+
+.contenedor {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+  padding: 30px 200px;
+  padding-top: 50px;
+  max-height: 2650px;
+}
+
+.contenedor img {
+  width: 100%;
+  margin-top: -5px;
+}
+
+.divisor {
+  height: 100%;
+  border-left: 1px solid #be1622;
+  padding: 30px 15px;
+}
+.divisor-art {
+  height: 100%;
+  border-left: 1px solid #be1622;
+  padding: 45px 15px;
+}
+.caja_arriba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 50px 30px 40px 30px;
+  border-radius: 40px 40px 0px 0px;
+}
+
+.caja_arriba p {
+  margin: 0px 30px;
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+  max-width: min-content;
+}
+.caja_arriba p span {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.caja_abajo {
+  padding: 30px;
+  background-color: black;
+  border-radius: 0px 0px 40px 40px;
+}
+
+.redesing {
+  display: flex;
+  flex-direction: column;
+}
+
+.art {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.redesing span {
+  font-size: 14px;
+}
+
+.caja:last-child {
+  position: relative;
+  top: -270px;
+}
+
+.caja:last-child .caja_arriba .art span {
+  padding: 0px 30px 0px 0px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+footer a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+footer a .next {
+  margin: 10px;
+  display: flex;
+  font-size: 16px;
+  flex-direction: column;
+  max-width: min-content;
+}
+footer a .next span{
+  font-size: 22px;
+}
